@@ -31,7 +31,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-darknight}
+\colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -43,7 +43,7 @@
 % \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
+\setbool{acvSectionColorHighlight}{false}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 %\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -75,7 +75,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
-\quote{"Nonggap is a good girl."}
+\quote{"Wow! I've learned something new today."}
 
 
 %-------------------------------------------------------------------------------
@@ -87,9 +87,9 @@
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
-    \makecvfooter
+    %\makecvfooter
     %{\today}
-    {Apitsada Suan-ngarm Resume}
+    %{Apitsada Suan-ngarm Resume}
     %{\thepage}
 
 
@@ -97,14 +97,14 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-    %\input{resume/summary.tex}
-    %\input{resume/experience.tex}
-    %\input{resume/honors.tex}
-    %\input{resume/presentation.tex}
-    %\input{resume/writing.tex}
-    %\input{resume/committees.tex}
+    \input{src/summary.tex}
+    \input{src/experience.tex}
+    \input{src/honors.tex}
+    %\input{src/presentation.tex}
+    %\input{src/writing.tex}
+    %\input{src/committees.tex}
     \input{src/education.tex}
-    %\input{resume/extracurricular.tex}
+    %\input{src/extracurricular.tex}
 
 
 %-------------------------------------------------------------------------------
